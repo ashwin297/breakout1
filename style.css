@@ -1,0 +1,44 @@
+canvas {
+    background: rgba(245, 245, 245, 0.61);
+    display: block;
+    margin: 0 auto;
+  }
+  
+  body {
+    background-image: url("./Arctic\ Mountains\ 1366x768.png");
+    background-size: cover;
+    text-align: center;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: "better_together_demoregular";
+    font-size: 40px;
+    color: white;
+  }
+  
+  @font-face {
+    font-family: "better_together_demoregular";
+    src: url("better_together_demo-webfont.woff2") format("woff2"),
+      url("better_together_demo-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: "nightregular";
+    color: white;
+    font-size: 30px;
+  }
+  
+  @font-face {
+    font-family: "nightregular";
+    src: url("night-regular-webfont.woff2") format("woff2"),
+      url("night-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
